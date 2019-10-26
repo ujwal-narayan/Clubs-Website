@@ -1,0 +1,12 @@
+step:
+  - title : "Activities Planned 1"
+    icon : "images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "AC 2"
+    icon : "images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "AC 3"
+    icon : "images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
