@@ -23,12 +23,15 @@
       </div>
       <div class="row shuffle-wrapper">
         {{ range .Site.Data.club_name.event.item }}
-        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .projectType }}{{if eq $index 0}} {{else}},{{end}}&quot;{{.type}}&quot;{{ end }}]">
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .eventType }}{{if eq $index 0}} {{else}},{{end}}&quot;{{.type}}&quot;{{ end }}]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            {{ range .images}}
+            <img src="{{. | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            {{ end }}
+            <!-- <img src="{{.image1 | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block"> -->
             <div class="hover-overlay">
               <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="{{ .projectURL }}">view project</a>
+                <a class="btn btn-light btn-sm" href="{{ .eventURL }}">{{ .eventTitle }}</a>
               </div>
             </div>
           </div>

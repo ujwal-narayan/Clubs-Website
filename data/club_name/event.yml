@@ -1,4 +1,4 @@
-# portfolio filter list
+# List of Event Types  
 list:
   - title : "Monthly Quiz"
     type : "mq"
@@ -9,53 +9,66 @@ list:
   - title : "asd"
     type : "lol"
 
-# portfolio itemf
+# List of Events, update each year. 
 item:
-  - image : "images/portfolio/item-1.png"
-    projectURL : "Amazon-increase-income.1.md"
-    projectType:
+  - images : 
+    - "images/portfolio/item-1.png"
+    - "images/portfolio/item-2.png"
+    - "images/portfolio/item-3.png"
+    eventURL : "amazon-increase-income.1"
+    eventTitle : amazon-increase-income.1
+    eventType:
       - type: "mq"
       - type: "fs"
       
-  - image : "images/portfolio/item-2.png"
-    projectURL : "#"
-    projectType:
+  - images : 
+    - "images/portfolio/item-2.png"
+    eventURL : "amazon-increase-income.2"
+    eventTitle : "amazon-increase-income.2"
+    eventType:
       - type: "lol"
       
-  - image : "images/portfolio/item-3.png"
-    projectURL : "#"
-    projectType:
+  - images : 
+    - "images/portfolio/item-3.png"
+    eventURL : "#"
+    eventType:
       - type: "fs"
       
-  - image : "images/portfolio/item-6.png"
-    projectURL : "#"
-    projectType:
+  - images :
+    -  "images/portfolio/item-6.png"
+    eventURL : "#"
+    eventType:
       - type: "mq"
       - type: "lol"
       
-  - image : "images/portfolio/item-8.png"
-    projectURL : "#"
-    projectType:
+  - images : 
+    - "images/portfolio/item-8.png"
+    eventURL : "#"
+    eventType:
       - type: "fs"
       
-  - image : "images/portfolio/item-5.png"
-    projectURL : "#"
-    projectType:
+  - images : 
+    - "images/portfolio/item-5.png"
+    eventURL : "#"
+    eventType:
       - type: "mq"
       
-  - image : "images/portfolio/item-1.png"
-    projectURL : "#"
-    projectType:
+  - images : 
+    - "images/portfolio/item-1.png"
+    eventURL : "#"
+    eventType:
       - type: "lol"
       
-  - image : "images/portfolio/item-3.png"
-    projectURL : "#"
-    projectType:
+  - images : 
+    - "images/portfolio/item-3.png"
+    eventURL : "#"
+    eventType:
       - type: "mq"
       - type: "fs"
       - type: "lol"
       
-  - image : "images/portfolio/item-7.png"
-    projectURL : "#"
-    projectType:
+  - images : 
+    - "images/portfolio/item-7.png"
+    eventURL : "#"
+    eventType:
       - type: "fs"

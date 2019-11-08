@@ -6,7 +6,7 @@ The website is built with Hugo.
 
 1. Go to the `content` folder and create a folder for your club. 
 2. A sample club has been given, so copy all the files in that sample club to the newly created folder.
-3. In every `_index.md` change the `type: music_club/` to one `type:your_Club_name/`
+3. In every `_index.md` change the `type: club_name/` to one `type:your_Club_name/`
 4. Go back to the root directory
 5. Now go to `layouts` folder,
 6. Cooy the sample folder given.

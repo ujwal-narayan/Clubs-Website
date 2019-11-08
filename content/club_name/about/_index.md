@@ -5,7 +5,7 @@ description: "This is meta description."
 author : "Johnathan Smith"
 authorImage : "images/about/author.jpg"
 authorSignature : "images/about/signature.png"
-type : "clubs_name/about"
+type : "club_name/about"
 layout: "list.html"
 ---
 
