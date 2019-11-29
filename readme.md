@@ -34,8 +34,9 @@ The website is built with Hugo.
 
 1. We use, `Hugo` a static site generater to generate the website. 
 2. Install [Hugo](https://gohugo.io/getting-started/installing/) 
-3. Run `hugo server` to run the server on your local machine. Execute this command in the root directory of the project. 
-4. If you have drafts, then run `hugo server -D` to view them. Do not keep drafts, and set the value to `False` when you're done as they do not get deployed on the site. 
+3. Install the theme, instructions available [here](https://github.com/themefisher/kross-hugo). 
+4. Run `hugo server` to run the server on your local machine. Execute this command in the root directory of the project. 
+5. If you have drafts, then run `hugo server -D` to view them. Do not keep drafts, and set the value to `False` when you're done as they do not get deployed on the site. 
 
 ## Adding Content 
 
