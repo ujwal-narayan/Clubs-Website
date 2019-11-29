@@ -1,3 +1,6 @@
 [submodule "themes/kross-hugo-portfolio-template"]
 	path = themes/kross-hugo-portfolio-template
 	url = https://github.com/themefisher/kross-hugo-portfolio-template.git
+[submodule "themes/hugo-primer"]
+	path = themes/hugo-primer
+	url = https://github.com/qqhann/hugo-primer
