@@ -27,8 +27,14 @@ The website is built with Hugo.
 
 
 1. Go back to root. 
-2. cd into `layouts` and copy the sample `club_name` folder.
+2. cd into `layouts` and copy the sample `club_name` folder and paste it in the same directory while replacing `club_name` with your club name.
 3. `grep -r club_name` in the content directory and change every instance of it in your folder to that of your folder name
+
+1. Go to `config/_default/config.toml`
+2. Copy the `menu.club_name` section and paste it again.
+3. In the pasted section replace the `club_name` with your club
+4. Go to `layouts` and cd into your club directory, and `grep -r "header"`.
+5. Replace every instance of `club_name` with that of your club name. 
 
 ## Deploying the site on the local machine 
 
@@ -37,6 +43,7 @@ The website is built with Hugo.
 3. Install the theme, instructions available [here](https://github.com/themefisher/kross-hugo). 
 4. Run `hugo server` to run the server on your local machine. Execute this command in the root directory of the project. 
 5. If you have drafts, then run `hugo server -D` to view them. Do not keep drafts, and set the value to `False` when you're done as they do not get deployed on the site. 
+
 
 ## Adding Content 
 

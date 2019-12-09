@@ -49,7 +49,25 @@ summaryLength = "10"
   URL = "contact"
   weight = 5
 
-
+  [[menu.club_name]]
+    name = "About"
+    URL = "club_name/about"
+    weight = 2
+    
+  [[menu.club_name]]
+    name = "Archives"
+    URL = "club_name/archive"
+    weight = 3
+    
+  [[menu.club_name]]
+    name = "Events"
+    URL = "club_name/events"
+    weight = 4
+    
+  [[menu.club_name]]
+    name = "Contact"
+    URL = "club_name/contact"
+    weight = 5
 
 [params]
 logo = "images/logo.png"

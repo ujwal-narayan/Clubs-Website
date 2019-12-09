@@ -11,7 +11,9 @@
         <li class="nav-item active">
           <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
         </li>
-        {{ range .Site.Menus.main }}
+
+        <script> console.log(" {{ printf "Hi" }}")</script>
+        {{ range .Site.Menus.club_name }}
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
