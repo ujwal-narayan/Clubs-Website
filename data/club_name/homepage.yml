@@ -1,6 +1,6 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "Hi! This is CLUB_NAME"
   socialLinks:
     - icon : "ti-facebook"
       URL : "#"
@@ -17,14 +17,14 @@ banner:
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "Club About"
   button:
     btnText : "know more"
-    URL : "/about"
+    URL : "/clubs/club_name/about"
 
 # skill
 skill:
-  enable : true
+  enable : false
   skillbar:
     - title : "Web Design"
       progress : "90%"
@@ -100,7 +100,7 @@ service:
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
 
-# portfolio
+# Upcoming Events 
 portfolio:
   enable : true
   item:
@@ -121,7 +121,7 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   item:
     - name : "Jesica Gomez"
       image : "images/testimonial/client-1.png"
@@ -140,7 +140,7 @@ testimonial:
 
 # client slider
 clientSlider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "#"
@@ -174,4 +174,4 @@ clientSlider:
 
 # blog
 blog:
-  enable : true
+  enable : false

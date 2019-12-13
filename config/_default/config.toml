@@ -71,10 +71,13 @@ summaryLength = "10"
 
 [params]
 logo = "images/logo.png"
-home = "Home"
+club_nameURL = "https://www.clubs.iiit.ac.in/clubs/club_name"
+
 # Meta data
+
 description = "This is meta description"
 author = "Themefisher"
+home = "Home"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 

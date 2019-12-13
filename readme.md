@@ -2,7 +2,7 @@
 
 The website is built with Hugo. 
 
-## Creating a site for your club  
+## Creating a site for your club
 
 1. Go to the `content` folder and create a folder for your club. 
 2. A sample club has been given, so copy all the files in that sample club to the newly created folder.
@@ -43,7 +43,7 @@ The website is built with Hugo.
 3. Install the theme, instructions available [here](https://github.com/themefisher/kross-hugo). 
 4. Run `hugo server` to run the server on your local machine. Execute this command in the root directory of the project. 
 5. If you have drafts, then run `hugo server -D` to view them. Do not keep drafts, and set the value to `False` when you're done as they do not get deployed on the site. 
-
+6. Make sure to have the latest version Hugo installed. 
 
 ## Adding Content 
 
@@ -55,7 +55,19 @@ The website is built with Hugo.
 6. If you want to add more than one picture make a seperate entry in `activities,yml
 
 
+## Modifying homepage 
+
+1. Go to `layouts/your_club/index.html` and modify the files over there 
+2. Go to `data\your_club\homepage.yml` and modify the Hugo variables from there. 
+3. Make sure to go to `layouts/partials/club_name/header.html` and change the home path to your club name from `club_name`
+The names and the rest are pretty self-explanatory. In case you don't like it, you are free to rewrite `index.html` however you like as a normal html file. 
+6. Make sure to have the latest version Hugo installed. I'm currently running v0.59.1. 
+
 ## Adding events to your club 
 
 1. Take a look at data. 
+
+## Issues or Doubts
+
+Raise a GitHub issue, and I'll get back to you within a day. 
 
