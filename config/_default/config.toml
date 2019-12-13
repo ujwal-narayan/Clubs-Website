@@ -1,6 +1,6 @@
 baseURL = "https://www.clubs.iiit.ac.in/clubs/"
 languageCode = "en-us"
-title = "Kross | Hugo Portfolio Template"
+title = "IIIT Student Clubs"
 theme = "kross-hugo-portfolio-template"
 summaryLength = "10"
 
