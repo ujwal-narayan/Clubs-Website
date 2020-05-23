@@ -72,6 +72,7 @@ summaryLength = "10"
 [params]
 logo = "images/logo.png"
 club_nameURL = "https://www.clubs.iiit.ac.in/clubs/club_name"
+theme_color = "#41228e"
 
 # Meta data
 
